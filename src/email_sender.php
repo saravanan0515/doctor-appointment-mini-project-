@@ -36,7 +36,7 @@ if ($result->num_rows > 0) {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'saravananm22mss034@skasc.ac.in'; // Your email
-            $mail->Password = 'saravananm0515'; // Use an App Password
+            $mail->Password = 'vupa lann bzvh xlhb'; // Use an App Password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
