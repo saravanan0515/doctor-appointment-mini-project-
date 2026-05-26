@@ -78,9 +78,9 @@ function sendEmailReminder($email, $name, $appodate, $scheduletime)
         $mail->SMTPDebug = 2; 
         $mail->Debugoutput = 'html';
 
-        $mail->setFrom('saravananm22mss034@skasc.ac.in', 'E-Doc System');
+        $mail->setFrom('sn', 'E-Doc System');
         $mail->addAddress($email, $name);
-        $mail->addReplyTo('saravananmaluventhi@gmail.com', 'Support Team');
+        $mail->addReplyTo('', 'Support Team');
 
         $mail->isHTML(true);
         $mail->Subject = "Appointment Reminder";
