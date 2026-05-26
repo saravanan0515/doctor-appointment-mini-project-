@@ -60,8 +60,8 @@ function sendEmailReminder($email, $name, $appodate, $scheduletime)
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'saravananm22mss034@skasc.ac.in'; // Your email
-        $mail->Password   = 'vupa lann bzvh xlhb'; // Use App Password
+        $mail->Username   = ''; // Your email
+        $mail->Password   = ''; // Use App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
